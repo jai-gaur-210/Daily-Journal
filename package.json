@@ -4,8 +4,11 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "start": "node app.js",
+    "build": "npm-run-all build:*",
+    "build:your-project": "your-build-command"
+  }
+  ,
   "author": "",
   "license": "ISC",
   "dependencies": {
